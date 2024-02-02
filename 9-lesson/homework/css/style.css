@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* a href  */
+
+a{
+    text-decoration: none;
+
+}
+
+/* Navbar */
+
+header{
+
+    background: #184756;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* padding: 0 150px; */
+    align-items: center;
+    flex-wrap: wrap;
+    top: 20px;
+}
+
+/* leftbar qismi */
+.leftbar{
+    position: relative;
+    /* left: 200px; */
+    top: 15px;
+    bottom:15px;
+    left: 150px;
+}
+
+.leftbar a img{
+    position: relative;
+    top: -5px;
+}
+
+
+/* centerbar qismi*/
+.centerbar{
+    display: flex;
+    position: relative;
+    /* left: 100px;
+    right: 90px; */
+    /* justify-content: end; */
+    gap: 30px;
+    padding: 20px;
+}   
+
+.centerbar a{
+    color: #A1B5BB;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.href{
+    /* display: flex; */
+    /* position: relative; */
+    /* left: 50px;
+    right: 50px; */
+}
+.href-1{
+    padding-left: 203px;
+    color: #A1B5BB;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.href-5{
+padding-right: 96px;
+}
+/* rightbar qismi*/
+
+.rightbar{
+    background:#145E76;
+    position: relative;
+    padding: 16px 34px;
+    top:10px;
+    right: 150px;
+    border-radius: 25px;
+    bottom: 10px;
+    /* padding: ; */
+
+}
+.rightbar a{
+    position: relative;
+    /* top: px; */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px; /* 160% */
+} 
+
+/* header content */
+.headercontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+/* header text */
+
+.divbutton{
+    padding: 16px 30px;
+    background:#094556;
+    border-radius:30px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    max-width: 195px;
+}
+.divbutton h1{
+    color: #FFF;
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.divcontent{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    max-width: 537px;
+}
+.divcontent h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 125% */
+}
+.divcontent p{
+    max-width: 511px;
+    color: #849499;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 160% */
+}
+
+.hire{
+    background: #FFA63A;
+    border-radius:25px;
+    max-width: 137px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 30px;
+    position: relative;
+    top: 50px;
+}
+
+.hire h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px; /* 160% */
+}
+
+
+.my{
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+.my h1{
+    color: #B6CDD4;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px; /* 160% */
+}
+/* header img */
+
+.headerimg{
+    position: relative;
+    right: 110px;
+    /* bottom:86px; */
+    margin-bottom: 200px;
+}
+
+.odam{
+    max-width: 599px;
+    z-index: 1;
+}
+/* mian */
+main{
+    background:#fff;
+
+}
+
+/* 
+header bilan  main o'rtasida turgan content kodi
+*/
+
+.maintop{
+z-index: 1;
+ /* top: ; */
+}
+
+.topcontent{
+    position: relative;
+    top: -120px;
+    max-width: 1170px;
+padding: 64px 54px 92px ;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 73px 80px 0px rgba(0, 0, 0, 0.06);
+/* z-index: 1; */
+}
+.static{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px ;
+}
+/* .topcontent h1{
+    
+} */
+
+.staticbutton{
+/* margin: 64px 54px 92px ; */
+
+    /* position: absolute; */
+    /* top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    /* right: 200px; */
+
+    position: relative;
+    /* bottom:60px; */
+}
+
+
+/* service section */
+
+.servicecontent{
+    display: flex;
+    justify-content: center;
+
+}
+
+.h1top{
+    position: absolute;
+
+    /* margin-left: 600px; */
+    color: #265A6A;
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 93.333% */
+    text-decoration-line: underline;
+}
+
+.servicetop{
+    position: absolute;
+    margin-top: 50px;
+    max-width: 580px;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; 
+}
+
+/* hover content */
+
+.hovercontent{
+    display: flex;
+    position: relative;
+    top: 200px;
+    max-width: 1170px;
+    justify-content: space-between;
+}
+.hover-1:hover{
+    background:#08546C;
+}
+.hover-1 svg{
+    
+    flex-basis: 100%;
+    padding: 30px auto 25px 30px;
+    
+    /* border-radius:50%; */
+    padding-left: 0px;
+}
+
+.hover-1{
+    display: flex;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    /* align-items:center; */
+    max-width: 273px;
+    padding: 30px;
+    align-content: center   ;
+    box-shadow: 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.hovercenter{
+
+    position: relative;
+
+    top: 210px;
+
+}
+
+
+#backtop {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.6s;
+  }

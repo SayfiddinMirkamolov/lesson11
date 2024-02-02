@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 1440px; */
+}
+.container{
+    width: 100%;
+    height: 3706px;
+    display: inline-block;
+    background: #B36050;
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+    height: 47px;
+    text-align: center;
+}
+.h1nav{
+    display: inline-block;
+    margin: 12px auto 9px;
+    width: 288px;
+    height: 28;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    height: 67px;
+    background: white;
+}

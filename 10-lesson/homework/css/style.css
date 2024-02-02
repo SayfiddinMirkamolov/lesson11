@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* a {
+  text-decoration: none;
+} */
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  /* position: relative; */
+  align-content: center;
+  background: #fff;
+  /* border: 1px solid #C9CDCF; */
+}
+li a {
+  text-decoration: none;
+}
+nav img {
+  margin-top: 10px;
+}
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  /* position: absolute; */
+  margin-top: 16px;
+}
+
+/* main   style */
+
+main {
+}
+section {
+  display: flex;
+  justify-content: center;
+  background: #f4f8fa;
+  /* padding: 20px auto; */
+}
+.siginup {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+  max-width: 496px;
+  padding: 20px;
+  position: relative;
+}
+.siginup img {
+  /* display: block; */
+
+  /* width: 100%; */
+  /* align-items: center; */
+
+  /* top: 10px; */
+  margin-top: 30px;
+  position: absolute;
+}
+.bytrend {
+  /* margin-top: 100px; */
+  /* margin-left: 100x; */
+  position: relative;
+  /* top: 20px; */
+  /* margin-top: 80px; */
+  margin: 80px 20px 0;
+}
+.bytrend div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.bytrend h1 {
+  /* position: relative;
+  top: 20px; */
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+}
+.bytrend p {
+  /* font-family: ?????; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  /* text-align: left; */
+  /* position: absolute; */
+  /* margin-left: 20px; */
+}
+.bytrend a {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: right;
+
+  /* position: absolute; */
+  /* margin-top: 38px; */
+}
+.register {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.firstlast {
+  display: flex;
+  /* justify-content: center; */
+}

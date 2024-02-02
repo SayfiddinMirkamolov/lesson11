@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: #000; */
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    
+}
+
+a{
+    text-decoration: none;
+}
+/* navbar ustidagi malumotlar */
+.bar{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 305px;
+    background: #000;
+
+}
+
+.telephone{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    
+}
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.telephone h1{
+    color: var(--gray, #969696);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.register a{
+    color: var(--gray, #969696);
+    text-align: right;
+    font-family: "PT Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* navbar kontenti */
+nav{
+
+
+}
+body{
+    
+}
+.navbar-a{
+    display: flex;
+    justify-content: space-between;
+    /* flex-flow: column wrap; */
+    /* flex-wrap: wrap; */
+    background: #0F0F0F;
+
+
+
+
+}
+
+.navbar-a .abutton{
+    display: flex;
+    /* padding-top: 15px; */
+    /* justify-content: end; */
+    color: var(--gray, #969696);
+    font-family: "PT Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.navbarlogo{
+    margin-top: 20px;
+    padding-left: 305px;
+    /* margin-bottom: 16px; */
+}
+
+
+.a{
+    padding: 18px 20px;
+    justify-content: center;
+    background: #1F1F1F;
+    margin-left: 400px;
+}
+.a .abutton{
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.abutton-end{
+    padding-right: 305px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
+    
+}
+.abutton-e{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.abutton-s{
+    padding-left: 20px;
+}
+.abutton-c{
+    padding-left: 40px;
+}

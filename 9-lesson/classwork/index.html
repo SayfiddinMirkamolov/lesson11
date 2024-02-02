@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <header>
+
+    <a href="#" id="backtop">
+        ☝️
+    </a>
+   </header>
+   <main>
+    <section>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas qui excepturi id eius officia, quaerat doloremque explicabo quos necessitatibus ut repellendus autem aspernatur pariatur magni consequatur commodi quia similique totam iure, temporibus voluptatem at delectus. Unde debitis expedita mollitia ipsa pariatur incidunt asperiores, obcaecati enim sapiente accusantium animi totam amet!
+    </section>
+    <section>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis non sed praesentium ad quam eos libero. Tenetur nulla dolorem vero officiis. Explicabo molestiae fuga quaerat alias. Aspernatur, nemo veniam! Optio explicabo repellendus doloribus, libero voluptatem consectetur quidem deserunt, veritatis dicta aut exercitationem minus! Sapiente cumque ipsum, nemo iste illo error!
+    </section>
+    <section>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui vel cumque, doloremque ducimus dolore voluptatem amet, esse possimus minima sapiente suscipit dolorum quo eaque magnam dignissimos. Dolores, consequatur earum illo maiores maxime possimus natus! Quisquam voluptate rerum assumenda provident voluptatum? Blanditiis cupiditate magni atque quidem sunt enim laudantium repellendus nulla quisquam. Autem ipsum enim harum exercitationem tenetur omnis quam quis? Minus aut ipsam ullam laudantium repudiandae! Eum ut minus similique. Veniam quas libero delectus iusto! Quod error optio obcaecati neque cupiditate adipisci, ut ducimus quia in vel? Eaque ullam est ea vitae, recusandae dolore quibusdam reiciendis odio laboriosam sequi quod molestiae eveniet voluptatem perferendis doloribus ex soluta, labore ipsa dignissimos omnis unde rem? Voluptatum eveniet ex nemo in placeat repellat. Fugiat rerum pariatur hic, ea dolorum impedit minus incidunt laudantium natus sapiente aliquam, odio corporis accusantium nesciunt laboriosam tenetur nam quasi voluptates dolore atque? Maxime culpa minus sit officia necessitatibus unde nemo, ut dolore corrupti dolorem similique quod consectetur cumque aspernatur laudantium esse tempore neque ratione quae dolorum, magnam dolores eos labore! Et expedita sed, ea molestias sit blanditiis, vel aperiam consequatur perferendis rem culpa sunt ducimus nostrum, hic ipsa. Nesciunt cumque nam optio! Assumenda id sed explicabo blanditiis possimus?
+    </section>
+   </main>
+</body>
+<script>
+window.addEventListener('scroll', function () {
+  toggleBacktop();
+});
+
+let backtop = document.getElementById('backtop');
+
+function toggleBacktop() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    backtop.style.bottom = '20px';
+  } else {
+    backtop.style.bottom = '-50px';
+  }
+}    
+
+
+</script>
+</html>

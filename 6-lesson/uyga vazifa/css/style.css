@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cotainer{
+    display: inline-block;
+    max-width: 1200px;
+
+
+}
+.h1{
+    display: inline-block;
+    margin: 0 auto;
+    background: #B36050;
+    width: 100%;
+    height: 47px;
+    padding: 10px 600px ;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #F1D3B9;
+}
+.navbar{
+    max-width: 1440px;
+    height: 60px;
+    display: inline-block;
+    margin: 0 120px; 
+}
+
+.navbar-1{
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+   
+    /* border: 1px solid darkblue; */
+    padding: 21px 0;
+}
+.navbar-2{
+    display: inline-block;
+    width: 120px;
+    height: 56px;
+    /* margin: 5px 40px 10px; */
+    padding: auto;
+}
+.navbar-3{
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    padding-left: 362px;
+    
+
+}
+.sectionimg img{
+    display: inline-block;
+   
+    width: 100%;
+    height: 435px;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: #B4604D;
+}
+
+.btn-1{
+    margin-left: 52px;
+}
+.btn-2{
+    margin-left: 28px;
+}
+.btn-3{
+    margin-left: 32px;
+    
+}
+.btn-4{
+    margin-left: 32px;
+}
+.navbar-2 img{
+    display: inline-block;
+    
+}
+
+
+.section{
+    display: inline-block;
+    width: 100%;
+    height: 304px;
+    background: #A9AE8D;
+    margin-top: -4px;
+}
+.kichik{
+    width: 242px;
+    height: 29px;
+    font-family: Roboto ,sans-serif;
+    font-size: 18px;
+    margin: 69px 599px 0;
+    color: #F6F4EC;
+}
+.katta{
+    width: 456px;
+    height: 64px;
+    font-family: Roboto ,sans-serif;
+    font-size: 33px;
+    margin:45px 492px 0;   
+    color: #F6F4EC; 
+}
+.shopnow{
+    width: 128px;
+    height: 48px;
+    margin: 28px 656px 51px;
+    background: #B45F4D;
+    color: #F6F4EC;
+}
+.market{
+    width: 100%;
+    height: 702px;
+    display: inline-block;
+    background: #F6F4EC;
+}
+
+.market h1{
+    width: 197px;
+    color:#B45F4D;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    margin: 39px 645px 0 ;
+}
+
+.market div{
+    
+    width: 340px;
+    height: 650px;
+    display: inline-block;
+    /* border: 1px  solid darkblue; */
+}
+.product{
+    margin-top:43px ;
+    margin-left: 125px;
+}
+.product img{
+    margin-top: 0 ;
+    margin-left: 0;
+}
+.product h1{
+    margin:35px 0 0 0 ;
+    font-size: 18px;
+    font-family: Roboto ,sans-serif;
+}
+.product1{
+    margin-top: 50px;
+    margin-left: 72px  ;
+}
+.product1 h1{
+    margin:35px 0 0 0 ;
+    font-size: 18px;
+    font-family: Roboto ,sans-serif;
+}
+.product2{
+    margin-top: 50px;
+    margin-left: 94px;
+}
+.product2 h1{
+    margin:35px 0 0 0 ;
+    font-size: 18px;
+    font-family: Roboto ,sans-serif;
+}
+.product3{
+    width: 1200px;
+    height: 19px;
+    display:inline-block;
+}
+
+#katta{
+    margin-left: 126px; ;
+}
+#kichik{
+    margin-left:1250px;
+}
+.div img{
+    margin-left: 110px;
+    margin-right: 130px;   
+     
+}
+.imgtagi{ 
+    background:#DF9B7A;
+    margin-left: 110px;
+    margin-right: 130px;  
+    width: 1200px;
+    height: 92px;
+    display: inline-block;
+    margin-top: -53px;
+}
+.imgtagi .matn{
+
+    display: inline-block;
+    width: 554.754px;
+    color: #F6F4EC;
+
+font-family: Roboto;
+font-size: 20px;
+
+
+text-transform: uppercase;
+margin-top: 30px;
+margin-left: 29px;
+}
+.imgtagi .shop{
+    display: inline-block;
+    margin-top: -25px;
+    margin-left: 1080px;
+    color: #F6F4EC;
+
+font-family: Roboto;
+font-size: 18px;
+
+font-weight: 400;
+    
+width: 81.639px;
+}
+.more{
+    width: 500px;
+    height: 750px;
+    background: #F8F8F8;
+}
+.haqida{
+    background: #F1D3B9;
+    width: 100%;
+height: 914px;
+}
+.set{
+    display: inline-block;
+    margin-left: 116px;
+    margin-top: 97px;
+    margin-bottom: 67px;
+}
+.more{
+    display: inline-block;
+    margin-left: 204px;
+    margin-right: 120px;
+    margin-top: 0;
+}
